@@ -28,9 +28,9 @@
   <email>mrubinsk@horde.org</email>
   <active>yes</active>
  </developer>
- <date>2016-07-13</date>
+ <date>2016-07-28</date>
  <version>
-  <release>2.25.0</release>
+  <release>2.25.1</release>
   <api>2.25.0</api>
  </version>
  <stability>
@@ -39,10 +39,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Allow to use the pretty autocompleter without Ajax requests.
-* [mjr] Allow adding CSS files with Ajax response.
-* [mjr] Use syntaxhighlighter version 4.
-* [jan] Fix issue with prototype.js that keeps images in HTML messages from loading.
+* 
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -1203,7 +1200,7 @@
    <package>
     <name>Horde_Prefs</name>
     <channel>pear.horde.org</channel>
-    <min>2.6.0</min>
+    <min>2.8.0</min>
     <max>3.0.0alpha1</max>
     <exclude>3.0.0alpha1</exclude>
    </package>
@@ -4201,13 +4198,26 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2016-07-13</date>
+   <date>2016-07-28</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Allow to use the pretty autocompleter without Ajax requests.
 * [mjr] Allow adding CSS files with Ajax response.
 * [mjr] Use syntaxhighlighter version 4.
 * [jan] Fix issue with prototype.js that keeps images in HTML messages from loading.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.25.1</release>
+    <api>2.25.0</api></version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api></stability>
+   <date>2016-07-28</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* 
    </notes>
   </release>
  </changelog>

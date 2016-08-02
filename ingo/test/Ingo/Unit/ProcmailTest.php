@@ -193,7 +193,7 @@ DATE=`date +%s`
 DUMMY=`test -f ${VACATION_DIR:-.}/\'.vacation.from@example.com\' && test $FILEDATE -le $DATE && rm ${VACATION_DIR:-.}/\'.vacation.from@example.com\'`
 :0 h
 SUBJECT=| formail -xSubject:
-:0 Whc: ${VACATION_DIR:-.}/vacation.lock
+:0 Wc: ${VACATION_DIR:-.}/vacation.lock
 {
 :0 Wh
 * ^TO_from@example.com
@@ -208,6 +208,8 @@ SUBJECT=| formail -xSubject:
 -i"Subject: Subject (Re: $SUBJECT)" ; \
 echo -e "Because I don\'t like working!" \
 ) | $SENDMAIL -ffrom@example.com -oi -t
+:0
+/dev/null
 }
 }
 }');
